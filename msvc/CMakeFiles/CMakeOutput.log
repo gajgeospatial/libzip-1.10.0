@@ -1,0 +1,867 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/17/2023 9:20:14 PM.
+Project "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\3.20.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/3.20.0/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_47798.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47798.dir\Debug\\" /Fd"cmTC_47798.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_47798.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_47798.exe
+
+
+
+Determining if the function _close exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cc120.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_close /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc120.dir\Debug\\" /Fd"cmTC_cc120.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_cc120.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_cc120.exe
+
+
+
+Determining if the function _dup exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5fb8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_dup /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fb8b.dir\Debug\\" /Fd"cmTC_5fb8b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_5fb8b.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_5fb8b.exe
+
+
+
+Determining if the function _fdopen exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e1c06.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_fdopen /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1c06.dir\Debug\\" /Fd"cmTC_e1c06.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_e1c06.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e1c06.exe
+
+
+
+Determining if the function _fileno exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fe375.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_fileno /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe375.dir\Debug\\" /Fd"cmTC_fe375.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_fe375.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_fe375.exe
+
+
+
+Determining if the function _setmode exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2453c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_setmode /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2453c.dir\Debug\\" /Fd"cmTC_2453c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_2453c.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2453c.exe
+
+
+
+Determining if the _snprintf exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0ed3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0ed3e.dir\Debug\\" /Fd"cmTC_0ed3e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,19): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\cmTC_0ed3e.vcxproj]
+  cmTC_0ed3e.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_0ed3e.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snprintf
+  return ((int*)(&_snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _snprintf_s exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fff2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fff2b.dir\Debug\\" /Fd"cmTC_fff2b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_fff2b.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_fff2b.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snprintf_s
+  return ((int*)(&_snprintf_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _snwprintf_s exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_8dde2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dde2.dir\Debug\\" /Fd"cmTC_8dde2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_8dde2.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_8dde2.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snwprintf_s
+  return ((int*)(&_snwprintf_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function _strdup exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a0add.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strdup /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0add.dir\Debug\\" /Fd"cmTC_a0add.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_a0add.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a0add.exe
+
+
+
+Determining if the _stricmp exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_db9f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db9f4.dir\Debug\\" /Fd"cmTC_db9f4.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_db9f4.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_db9f4.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function _strtoi64 exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d9f01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoi64 /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9f01.dir\Debug\\" /Fd"cmTC_d9f01.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_d9f01.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d9f01.exe
+
+
+
+Determining if the function _strtoui64 exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_90e99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_strtoui64 /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90e99.dir\Debug\\" /Fd"cmTC_90e99.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_90e99.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_90e99.exe
+
+
+
+Determining if the function _unlink exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6ce4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_unlink /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ce4e.dir\Debug\\" /Fd"cmTC_6ce4e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_6ce4e.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6ce4e.exe
+
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e2d2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fileno /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2d2e.dir\Debug\\" /Fd"cmTC_e2d2e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_e2d2e.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_e2d2e.exe
+
+
+
+Determining if the localtime_s exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b1812.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1812.dir\Debug\\" /Fd"cmTC_b1812.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b1812.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b1812.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_s
+  return ((int*)(&localtime_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function memcpy_s exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_bfb9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memcpy_s /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bfb9b.dir\Debug\\" /Fd"cmTC_bfb9b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_bfb9b.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_bfb9b.exe
+
+
+
+Determining if the function setmode exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9ae36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setmode /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ae36.dir\Debug\\" /Fd"cmTC_9ae36.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_9ae36.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_9ae36.exe
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1e4ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e4ef.dir\Debug\\" /Fd"cmTC_1e4ef.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_1e4ef.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1e4ef.exe
+
+
+File N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function strdup exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d4f8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4f8e.dir\Debug\\" /Fd"cmTC_d4f8e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_d4f8e.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d4f8e.exe
+
+
+
+Determining if the function strerror_s exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_80ed7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror_s /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80ed7.dir\Debug\\" /Fd"cmTC_80ed7.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_80ed7.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_80ed7.exe
+
+
+
+Determining if the function stricmp exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_459be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=stricmp /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_459be.dir\Debug\\" /Fd"cmTC_459be.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_459be.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_459be.exe
+
+
+
+Determining if the function strncpy_s exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_29501.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncpy_s /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29501.dir\Debug\\" /Fd"cmTC_29501.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_29501.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_29501.exe
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cb535.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb535.dir\Debug\\" /Fd"cmTC_cb535.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_cb535.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_cb535.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c16d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c16d2.dir\Debug\\" /Fd"cmTC_c16d2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_c16d2.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_c16d2.exe
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_19307.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDBOOL_H.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19307.dir\Debug\\" /Fd"cmTC_19307.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  cmTC_19307.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_19307.exe
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6f3d1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_INTTYPES_H_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f3d1.dir\Debug\\" /Fd"cmTC_6f3d1.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H_LIBZIP.c"
+  cmTC_6f3d1.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6f3d1.exe
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_864f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_STDINT_H_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_864f7.dir\Debug\\" /Fd"cmTC_864f7.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H_LIBZIP.c"
+  cmTC_864f7.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_864f7.exe
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b6b96.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_TYPES_H_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6b96.dir\Debug\\" /Fd"cmTC_b6b96.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H_LIBZIP.c"
+  cmTC_b6b96.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b6b96.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0b9f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b9f4.dir\Debug\\" /Fd"cmTC_0b9f4.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_0b9f4.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_0b9f4.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5fc0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fc0a.dir\Debug\\" /Fd"cmTC_5fc0a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_5fc0a.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_5fc0a.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d496c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d496c.dir\Debug\\" /Fd"cmTC_d496c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_d496c.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d496c.exe
+
+
+
+Determining size of __int8 passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9aa0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  __INT8_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9aa0c.dir\Debug\\" /Fd"cmTC_9aa0c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\__INT8_LIBZIP.c"
+  cmTC_9aa0c.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_9aa0c.exe
+
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c36ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  INT8_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c36ff.dir\Debug\\" /Fd"cmTC_c36ff.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\INT8_T_LIBZIP.c"
+  cmTC_c36ff.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_c36ff.exe
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2f421.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  UINT8_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f421.dir\Debug\\" /Fd"cmTC_2f421.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\UINT8_T_LIBZIP.c"
+  cmTC_2f421.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2f421.exe
+
+
+
+Determining size of __int16 passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_05086.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  __INT16_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05086.dir\Debug\\" /Fd"cmTC_05086.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\__INT16_LIBZIP.c"
+  cmTC_05086.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_05086.exe
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_da45c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  INT16_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da45c.dir\Debug\\" /Fd"cmTC_da45c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\INT16_T_LIBZIP.c"
+  cmTC_da45c.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_da45c.exe
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1a99b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  UINT16_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a99b.dir\Debug\\" /Fd"cmTC_1a99b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\UINT16_T_LIBZIP.c"
+  cmTC_1a99b.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1a99b.exe
+
+
+
+Determining size of __int32 passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1891d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  __INT32_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1891d.dir\Debug\\" /Fd"cmTC_1891d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\__INT32_LIBZIP.c"
+  cmTC_1891d.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1891d.exe
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d7129.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  INT32_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7129.dir\Debug\\" /Fd"cmTC_d7129.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\INT32_T_LIBZIP.c"
+  cmTC_d7129.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_d7129.exe
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ff1e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  UINT32_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff1e2.dir\Debug\\" /Fd"cmTC_ff1e2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\UINT32_T_LIBZIP.c"
+  cmTC_ff1e2.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ff1e2.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6a319.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  __INT64_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a319.dir\Debug\\" /Fd"cmTC_6a319.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\__INT64_LIBZIP.c"
+  cmTC_6a319.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6a319.exe
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_37fd9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  INT64_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37fd9.dir\Debug\\" /Fd"cmTC_37fd9.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\INT64_T_LIBZIP.c"
+  cmTC_37fd9.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_37fd9.exe
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1df17.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  UINT64_T_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1df17.dir\Debug\\" /Fd"cmTC_1df17.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\UINT64_T_LIBZIP.c"
+  cmTC_1df17.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1df17.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5abba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SHORT_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5abba.dir\Debug\\" /Fd"cmTC_5abba.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\SHORT_LIBZIP.c"
+  cmTC_5abba.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_5abba.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a2c4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  INT_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2c4d.dir\Debug\\" /Fd"cmTC_a2c4d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\INT_LIBZIP.c"
+  cmTC_a2c4d.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a2c4d.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fbd1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  LONG_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbd1c.dir\Debug\\" /Fd"cmTC_fbd1c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\LONG_LIBZIP.c"
+  cmTC_fbd1c.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_fbd1c.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4c23f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  LONG_LONG_LIBZIP.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c23f.dir\Debug\\" /Fd"cmTC_4c23f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\LONG_LONG_LIBZIP.c"
+  cmTC_4c23f.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_4c23f.exe
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_61625.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_OFF_T.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61625.dir\Debug\\" /Fd"cmTC_61625.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  cmTC_61625.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_61625.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4e756.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIZE_T.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e756.dir\Debug\\" /Fd"cmTC_4e756.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  cmTC_4e756.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_4e756.exe
+
+
+
+Determining if the function lzma_auto_decoder exists in the N:/Development/Dev_Base/liblzma-5.2.5/windows/vc143/x64/vs2022_Release/liblzma.lib passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_996d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_996d9.dir\Debug\\" /Fd"cmTC_996d9.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_996d9.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_996d9.exe
+
+
+
+Determining if the function lzma_easy_encoder exists in the N:/Development/Dev_Base/liblzma-5.2.5/windows/vc143/x64/vs2022_Release/liblzma.lib passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_028d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_028d0.dir\Debug\\" /Fd"cmTC_028d0.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_028d0.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_028d0.exe
+
+
+
+Determining if the function lzma_lzma_preset exists in the N:/Development/Dev_Base/liblzma-5.2.5/windows/vc143/x64/vs2022_Release/liblzma.lib passed with the following output:
+Change Dir: N:/Development/Dev_Base/libzip-1.10.0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6ebc3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D __STDC_WANT_LIB_EXT1__=1 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ebc3.dir\Debug\\" /Fd"cmTC_6ebc3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  cmTC_6ebc3.vcxproj -> N:\Development\Dev_Base\libzip-1.10.0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_6ebc3.exe
+
+
+

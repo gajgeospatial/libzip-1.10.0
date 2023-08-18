@@ -1,0 +1,104 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "add-compressed-data", "examples\add-compressed-data.vcxproj", "{F2780482-02ED-3447-82B5-84C2C61C5347}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "autoclose-archive", "examples\autoclose-archive.vcxproj", "{EA6A59EA-BC18-38DD-9FCD-91375858D606}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "in-memory", "examples\in-memory.vcxproj", "{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zip", "lib\zip.vcxproj", "{CEAD9910-98A1-390F-B4FB-84301B339678}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zipcmp", "src\zipcmp.vcxproj", "{57A50C8E-6F03-37BE-9A42-6908EE28A646}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zipmerge", "src\zipmerge.vcxproj", "{7CBE7525-4EA0-368E-AC15-E1928A4B9667}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ziptool", "src\ziptool.vcxproj", "{678010C0-7732-39EC-B948-B23149EA3E47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEAD9910-98A1-390F-B4FB-84301B339678} = {CEAD9910-98A1-390F-B4FB-84301B339678}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{F2780482-02ED-3447-82B5-84C2C61C5347}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{EA6A59EA-BC18-38DD-9FCD-91375858D606}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{B0083616-6B58-3EBD-80C9-A350D0CAFD9C}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{CEAD9910-98A1-390F-B4FB-84301B339678}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{57A50C8E-6F03-37BE-9A42-6908EE28A646}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{7CBE7525-4EA0-368E-AC15-E1928A4B9667}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2019_Debug|x64.ActiveCfg = vs2019_Debug|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2019_Debug|x64.Build.0 = vs2019_Debug|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2019_Release|x64.ActiveCfg = vs2019_Release|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2019_Release|x64.Build.0 = vs2019_Release|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2022_Debug|x64.ActiveCfg = vs2022_Debug|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2022_Debug|x64.Build.0 = vs2022_Debug|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2022_Release|x64.ActiveCfg = vs2022_Release|x64
+		{678010C0-7732-39EC-B948-B23149EA3E47}.vs2022_Release|x64.Build.0 = vs2022_Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59AA7A90-A379-3F9A-BD1D-AAA59DBDD043}
+	EndGlobalSection
+EndGlobal

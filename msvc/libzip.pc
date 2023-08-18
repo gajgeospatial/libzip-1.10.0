@@ -1,0 +1,14 @@
+prefix=C:/Program Files/libzip
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+zipcmp=${bindir}/zipcmp
+
+Name: libzip
+Description: library for handling zip archives
+Version: 1.10.0
+Libs:  -L${libdir} -lzip
+Libs.private:  -lzstdadvapi32 -lzstdbz2 -lzstdlzma -lzstdbcrypt -lzstdZLIB::ZLIB
+Cflags: -I${includedir}

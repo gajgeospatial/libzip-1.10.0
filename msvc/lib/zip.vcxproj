@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="vs2019_Debug|x64">
+      <Configuration>vs2019_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2019_Release|x64">
+      <Configuration>vs2019_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2022_Debug|x64">
+      <Configuration>vs2022_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2022_Release|x64">
+      <Configuration>vs2022_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CEAD9910-98A1-390F-B4FB-84301B339678}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>zip</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">zip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">zip</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">zip</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">zip</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zip</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(ProjectName).dir\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zip</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;BZip2::BZip2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;libbz2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BZIP2_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;libbz2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BZIP2_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).pdb $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;BZip2::BZip2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;libbz2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BZIP2_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\..;..\..\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(BZIP2_DIR);..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;libbz2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(BZIP2_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PostBuildEvent>
+      <Command>if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration)
+if exist $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin   copy /y $(OutDir)$(TargetName).dll $(Dev_Base)\$(GDAL_DIR)\msvc\vc$(PlatformToolsetVersion)\$(Platform)\bin
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;BZip2::BZip2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";zip_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>..\..\lib;..\;..\..\..\$(LIBLZMA_DIR)\src\liblzma\api;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>advapi32.lib;BZip2::BZip2.lib;liblzma.lib;bcrypt.lib;zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\$(LIBLZMA_DIR)\windows\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);..\..\..\$(ZLIB_DIR)\vc$(PlatformToolsetVersion)\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories);</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(OutDir)zip.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeFiles\6d15b7082f955833731d35aa480c53e1\zip_err_str.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating zip_err_str.c</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">Generating zip_err_str.c</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">Generating zip_err_str.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\zip_err_str.c</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.\zip_err_str.c</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">.\zip_err_str.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating zip_err_str.c</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">Generating zip_err_str.c</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">Generating zip_err_str.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\zip_err_str.c</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">.\zip_err_str.c</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.\zip_err_str.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating zip_err_str.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.\zip_err_str.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating zip_err_str.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cmake -DPROJECT_SOURCE_DIR=N:/Development/Dev_Base/libzip-1.10.0 -DCMAKE_CURRENT_BINARY_DIR=N:/Development/Dev_Base/libzip-1.10.0/msvc/lib -P ..\..\cmake\GenerateZipErrorStrings.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">..\..\cmake\GenerateZipErrorStrings.cmake;..\..\lib\zip.h;..\..\lib\zipint.h;%(AdditionalInputs);</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.\zip_err_str.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\lib\zip_add.c" />
+    <ClCompile Include="..\..\lib\zip_add_dir.c" />
+    <ClCompile Include="..\..\lib\zip_add_entry.c" />
+    <ClCompile Include="..\..\lib\zip_algorithm_deflate.c" />
+    <ClCompile Include="..\..\lib\zip_buffer.c" />
+    <ClCompile Include="..\..\lib\zip_close.c" />
+    <ClCompile Include="..\..\lib\zip_delete.c" />
+    <ClCompile Include="..\..\lib\zip_dir_add.c" />
+    <ClCompile Include="..\..\lib\zip_dirent.c" />
+    <ClCompile Include="..\..\lib\zip_discard.c" />
+    <ClCompile Include="..\..\lib\zip_entry.c" />
+    <ClCompile Include="..\..\lib\zip_error.c" />
+    <ClCompile Include="..\..\lib\zip_error_clear.c" />
+    <ClCompile Include="..\..\lib\zip_error_get.c" />
+    <ClCompile Include="..\..\lib\zip_error_get_sys_type.c" />
+    <ClCompile Include="..\..\lib\zip_error_strerror.c" />
+    <ClCompile Include="..\..\lib\zip_error_to_str.c" />
+    <ClCompile Include="..\..\lib\zip_extra_field.c" />
+    <ClCompile Include="..\..\lib\zip_extra_field_api.c" />
+    <ClCompile Include="..\..\lib\zip_fclose.c" />
+    <ClCompile Include="..\..\lib\zip_fdopen.c" />
+    <ClCompile Include="..\..\lib\zip_file_add.c" />
+    <ClCompile Include="..\..\lib\zip_file_error_clear.c" />
+    <ClCompile Include="..\..\lib\zip_file_error_get.c" />
+    <ClCompile Include="..\..\lib\zip_file_get_comment.c" />
+    <ClCompile Include="..\..\lib\zip_file_get_external_attributes.c" />
+    <ClCompile Include="..\..\lib\zip_file_get_offset.c" />
+    <ClCompile Include="..\..\lib\zip_file_rename.c" />
+    <ClCompile Include="..\..\lib\zip_file_replace.c" />
+    <ClCompile Include="..\..\lib\zip_file_set_comment.c" />
+    <ClCompile Include="..\..\lib\zip_file_set_encryption.c" />
+    <ClCompile Include="..\..\lib\zip_file_set_external_attributes.c" />
+    <ClCompile Include="..\..\lib\zip_file_set_mtime.c" />
+    <ClCompile Include="..\..\lib\zip_file_strerror.c" />
+    <ClCompile Include="..\..\lib\zip_fopen.c" />
+    <ClCompile Include="..\..\lib\zip_fopen_encrypted.c" />
+    <ClCompile Include="..\..\lib\zip_fopen_index.c" />
+    <ClCompile Include="..\..\lib\zip_fopen_index_encrypted.c" />
+    <ClCompile Include="..\..\lib\zip_fread.c" />
+    <ClCompile Include="..\..\lib\zip_fseek.c" />
+    <ClCompile Include="..\..\lib\zip_ftell.c" />
+    <ClCompile Include="..\..\lib\zip_get_archive_comment.c" />
+    <ClCompile Include="..\..\lib\zip_get_archive_flag.c" />
+    <ClCompile Include="..\..\lib\zip_get_encryption_implementation.c" />
+    <ClCompile Include="..\..\lib\zip_get_file_comment.c" />
+    <ClCompile Include="..\..\lib\zip_get_name.c" />
+    <ClCompile Include="..\..\lib\zip_get_num_entries.c" />
+    <ClCompile Include="..\..\lib\zip_get_num_files.c" />
+    <ClCompile Include="..\..\lib\zip_hash.c" />
+    <ClCompile Include="..\..\lib\zip_io_util.c" />
+    <ClCompile Include="..\..\lib\zip_libzip_version.c" />
+    <ClCompile Include="..\..\lib\zip_memdup.c" />
+    <ClCompile Include="..\..\lib\zip_name_locate.c" />
+    <ClCompile Include="..\..\lib\zip_new.c" />
+    <ClCompile Include="..\..\lib\zip_open.c" />
+    <ClCompile Include="..\..\lib\zip_pkware.c" />
+    <ClCompile Include="..\..\lib\zip_progress.c" />
+    <ClCompile Include="..\..\lib\zip_rename.c" />
+    <ClCompile Include="..\..\lib\zip_replace.c" />
+    <ClCompile Include="..\..\lib\zip_set_archive_comment.c" />
+    <ClCompile Include="..\..\lib\zip_set_archive_flag.c" />
+    <ClCompile Include="..\..\lib\zip_set_default_password.c" />
+    <ClCompile Include="..\..\lib\zip_set_file_comment.c" />
+    <ClCompile Include="..\..\lib\zip_set_file_compression.c" />
+    <ClCompile Include="..\..\lib\zip_set_name.c" />
+    <ClCompile Include="..\..\lib\zip_source_accept_empty.c" />
+    <ClCompile Include="..\..\lib\zip_source_begin_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_begin_write_cloning.c" />
+    <ClCompile Include="..\..\lib\zip_source_buffer.c" />
+    <ClCompile Include="..\..\lib\zip_source_call.c" />
+    <ClCompile Include="..\..\lib\zip_source_close.c" />
+    <ClCompile Include="..\..\lib\zip_source_commit_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_compress.c" />
+    <ClCompile Include="..\..\lib\zip_source_crc.c" />
+    <ClCompile Include="..\..\lib\zip_source_error.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_common.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_stdio.c" />
+    <ClCompile Include="..\..\lib\zip_source_free.c" />
+    <ClCompile Include="..\..\lib\zip_source_function.c" />
+    <ClCompile Include="..\..\lib\zip_source_get_file_attributes.c" />
+    <ClCompile Include="..\..\lib\zip_source_is_deleted.c" />
+    <ClCompile Include="..\..\lib\zip_source_layered.c" />
+    <ClCompile Include="..\..\lib\zip_source_open.c" />
+    <ClCompile Include="..\..\lib\zip_source_pass_to_lower_layer.c" />
+    <ClCompile Include="..\..\lib\zip_source_pkware_decode.c" />
+    <ClCompile Include="..\..\lib\zip_source_pkware_encode.c" />
+    <ClCompile Include="..\..\lib\zip_source_read.c" />
+    <ClCompile Include="..\..\lib\zip_source_remove.c" />
+    <ClCompile Include="..\..\lib\zip_source_rollback_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_seek.c" />
+    <ClCompile Include="..\..\lib\zip_source_seek_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_stat.c" />
+    <ClCompile Include="..\..\lib\zip_source_supports.c" />
+    <ClCompile Include="..\..\lib\zip_source_tell.c" />
+    <ClCompile Include="..\..\lib\zip_source_tell_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_window.c" />
+    <ClCompile Include="..\..\lib\zip_source_write.c" />
+    <ClCompile Include="..\..\lib\zip_source_zip.c" />
+    <ClCompile Include="..\..\lib\zip_source_zip_new.c" />
+    <ClCompile Include="..\..\lib\zip_stat.c" />
+    <ClCompile Include="..\..\lib\zip_stat_index.c" />
+    <ClCompile Include="..\..\lib\zip_stat_init.c" />
+    <ClCompile Include="..\..\lib\zip_strerror.c" />
+    <ClCompile Include="..\..\lib\zip_string.c" />
+    <ClCompile Include="..\..\lib\zip_unchange.c" />
+    <ClCompile Include="..\..\lib\zip_unchange_all.c" />
+    <ClCompile Include="..\..\lib\zip_unchange_archive.c" />
+    <ClCompile Include="..\..\lib\zip_unchange_data.c" />
+    <ClCompile Include="..\..\lib\zip_utf-8.c" />
+    <ClCompile Include=".\zip_err_str.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_win32.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_win32_named.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_win32_utf16.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_win32_utf8.c" />
+    <ClCompile Include="..\..\lib\zip_source_file_win32_ansi.c" />
+    <ClCompile Include="..\..\lib\zip_random_win32.c" />
+    <ClCompile Include="..\..\lib\zip_algorithm_bzip2.c" />
+    <ClCompile Include="..\..\lib\zip_algorithm_xz.c" />
+    <ClCompile Include="..\..\lib\zip_crypto_win.c" />
+    <ClCompile Include="..\..\lib\zip_winzip_aes.c" />
+    <ClCompile Include="..\..\lib\zip_source_winzip_aes_decode.c" />
+    <ClCompile Include="..\..\lib\zip_source_winzip_aes_encode.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
+      <Project>{A5D8A840-01B2-32AB-BBA7-F0BA6333D75B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
