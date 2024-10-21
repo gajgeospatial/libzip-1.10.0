@@ -474,18 +474,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\examples\add-compressed-data.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ZERO_CHECK.vcxproj">
-      <Project>{A5D8A840-01B2-32AB-BBA7-F0BA6333D75B}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="..\lib\zip.vcxproj">
-      <Project>{CEAD9910-98A1-390F-B4FB-84301B339678}</Project>
-      <Name>zip</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
